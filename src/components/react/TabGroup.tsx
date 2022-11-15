@@ -23,7 +23,7 @@ export const TabGroup = () => {
                 </div>
                 <div className='flex flex-col md:flex-row justify-around items-center py-20 px-10 border-t-2 border-cico-light-blue'>
                     <div className='w-full md:w-3/5'>
-                        <ul className='list-disc list-inside'>
+                        <ul className='list-disc list-inside opacity-60'>
                             { active.list.map((item) => (
                                 <li key={ item }>{ item }</li>
                             )) }
