@@ -5,6 +5,7 @@ import AboutUs from '../components/Content/AboutUs.astro';
 import Strategy from '../components/Content/Strategy.astro';
 import Client from '../components/Content/Client.astro';
 import ValuesUs from '../components/Content/ValuesUs.astro';
+import { TabGroup } from '../components/react/TabGroup';
 ---
 
 <Layout title="Grupo CICOVISA S.A. de C.V.">
@@ -14,5 +15,6 @@ import ValuesUs from '../components/Content/ValuesUs.astro';
 		<Strategy />
 		<ValuesUs />
 		<Client />
+		<TabGroup client:load/>
 	</main>
 </Layout>
